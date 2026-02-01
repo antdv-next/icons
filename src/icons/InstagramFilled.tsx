@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import InstagramFilledSvg from '@ant-design/icons-svg/es/asn/InstagramFilled'
+import InstagramFilledSvg from '@ant-design/icons-svg/es/asn/InstagramFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

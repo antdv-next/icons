@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DribbbleSquareFilledSvg from '@ant-design/icons-svg/es/asn/DribbbleSquareFilled'
+import DribbbleSquareFilledSvg from '@ant-design/icons-svg/es/asn/DribbbleSquareFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

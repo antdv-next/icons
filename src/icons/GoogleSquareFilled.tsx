@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import GoogleSquareFilledSvg from '@ant-design/icons-svg/es/asn/GoogleSquareFilled'
+import GoogleSquareFilledSvg from '@ant-design/icons-svg/es/asn/GoogleSquareFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

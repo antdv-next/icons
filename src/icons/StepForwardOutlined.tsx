@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import StepForwardOutlinedSvg from '@ant-design/icons-svg/es/asn/StepForwardOutlined'
+import StepForwardOutlinedSvg from '@ant-design/icons-svg/es/asn/StepForwardOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

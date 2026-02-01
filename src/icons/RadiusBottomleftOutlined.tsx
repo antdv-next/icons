@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RadiusBottomleftOutlinedSvg from '@ant-design/icons-svg/es/asn/RadiusBottomleftOutlined'
+import RadiusBottomleftOutlinedSvg from '@ant-design/icons-svg/es/asn/RadiusBottomleftOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

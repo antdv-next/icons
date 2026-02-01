@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SwitcherOutlinedSvg from '@ant-design/icons-svg/es/asn/SwitcherOutlined'
+import SwitcherOutlinedSvg from '@ant-design/icons-svg/es/asn/SwitcherOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import UnlockFilledSvg from '@ant-design/icons-svg/es/asn/UnlockFilled'
+import UnlockFilledSvg from '@ant-design/icons-svg/es/asn/UnlockFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DotChartOutlinedSvg from '@ant-design/icons-svg/es/asn/DotChartOutlined'
+import DotChartOutlinedSvg from '@ant-design/icons-svg/es/asn/DotChartOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

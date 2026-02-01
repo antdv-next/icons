@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FileZipOutlinedSvg from '@ant-design/icons-svg/es/asn/FileZipOutlined'
+import FileZipOutlinedSvg from '@ant-design/icons-svg/es/asn/FileZipOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

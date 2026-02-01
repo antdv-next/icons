@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FastBackwardOutlinedSvg from '@ant-design/icons-svg/es/asn/FastBackwardOutlined'
+import FastBackwardOutlinedSvg from '@ant-design/icons-svg/es/asn/FastBackwardOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

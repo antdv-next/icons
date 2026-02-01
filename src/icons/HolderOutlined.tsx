@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import HolderOutlinedSvg from '@ant-design/icons-svg/es/asn/HolderOutlined'
+import HolderOutlinedSvg from '@ant-design/icons-svg/es/asn/HolderOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

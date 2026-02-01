@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import ColumnHeightOutlinedSvg from '@ant-design/icons-svg/es/asn/ColumnHeightOutlined'
+import ColumnHeightOutlinedSvg from '@ant-design/icons-svg/es/asn/ColumnHeightOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

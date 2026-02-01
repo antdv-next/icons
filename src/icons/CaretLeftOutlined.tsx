@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CaretLeftOutlinedSvg from '@ant-design/icons-svg/es/asn/CaretLeftOutlined'
+import CaretLeftOutlinedSvg from '@ant-design/icons-svg/es/asn/CaretLeftOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

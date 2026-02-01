@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import WindowsFilledSvg from '@ant-design/icons-svg/es/asn/WindowsFilled'
+import WindowsFilledSvg from '@ant-design/icons-svg/es/asn/WindowsFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

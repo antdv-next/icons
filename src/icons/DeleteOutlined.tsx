@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DeleteOutlinedSvg from '@ant-design/icons-svg/es/asn/DeleteOutlined'
+import DeleteOutlinedSvg from '@ant-design/icons-svg/es/asn/DeleteOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import VideoCameraAddOutlinedSvg from '@ant-design/icons-svg/es/asn/VideoCameraAddOutlined'
+import VideoCameraAddOutlinedSvg from '@ant-design/icons-svg/es/asn/VideoCameraAddOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

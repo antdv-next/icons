@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CreditCardTwoToneSvg from '@ant-design/icons-svg/es/asn/CreditCardTwoTone'
+import CreditCardTwoToneSvg from '@ant-design/icons-svg/es/asn/CreditCardTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

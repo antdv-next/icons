@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import YoutubeFilledSvg from '@ant-design/icons-svg/es/asn/YoutubeFilled'
+import YoutubeFilledSvg from '@ant-design/icons-svg/es/asn/YoutubeFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

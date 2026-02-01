@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SlidersFilledSvg from '@ant-design/icons-svg/es/asn/SlidersFilled'
+import SlidersFilledSvg from '@ant-design/icons-svg/es/asn/SlidersFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

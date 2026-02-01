@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import AreaChartOutlinedSvg from '@ant-design/icons-svg/es/asn/AreaChartOutlined'
+import AreaChartOutlinedSvg from '@ant-design/icons-svg/es/asn/AreaChartOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

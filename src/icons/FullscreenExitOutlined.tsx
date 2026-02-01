@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FullscreenExitOutlinedSvg from '@ant-design/icons-svg/es/asn/FullscreenExitOutlined'
+import FullscreenExitOutlinedSvg from '@ant-design/icons-svg/es/asn/FullscreenExitOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

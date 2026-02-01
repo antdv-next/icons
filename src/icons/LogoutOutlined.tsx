@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import LogoutOutlinedSvg from '@ant-design/icons-svg/es/asn/LogoutOutlined'
+import LogoutOutlinedSvg from '@ant-design/icons-svg/es/asn/LogoutOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

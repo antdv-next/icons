@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import QrcodeOutlinedSvg from '@ant-design/icons-svg/es/asn/QrcodeOutlined'
+import QrcodeOutlinedSvg from '@ant-design/icons-svg/es/asn/QrcodeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

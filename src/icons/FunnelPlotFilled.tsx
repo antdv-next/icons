@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FunnelPlotFilledSvg from '@ant-design/icons-svg/es/asn/FunnelPlotFilled'
+import FunnelPlotFilledSvg from '@ant-design/icons-svg/es/asn/FunnelPlotFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import BehanceSquareFilledSvg from '@ant-design/icons-svg/es/asn/BehanceSquareFilled'
+import BehanceSquareFilledSvg from '@ant-design/icons-svg/es/asn/BehanceSquareFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

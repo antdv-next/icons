@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import YahooOutlinedSvg from '@ant-design/icons-svg/es/asn/YahooOutlined'
+import YahooOutlinedSvg from '@ant-design/icons-svg/es/asn/YahooOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

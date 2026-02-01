@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import WeiboOutlinedSvg from '@ant-design/icons-svg/es/asn/WeiboOutlined'
+import WeiboOutlinedSvg from '@ant-design/icons-svg/es/asn/WeiboOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

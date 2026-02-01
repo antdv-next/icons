@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import StrikethroughOutlinedSvg from '@ant-design/icons-svg/es/asn/StrikethroughOutlined'
+import StrikethroughOutlinedSvg from '@ant-design/icons-svg/es/asn/StrikethroughOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

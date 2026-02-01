@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FacebookFilledSvg from '@ant-design/icons-svg/es/asn/FacebookFilled'
+import FacebookFilledSvg from '@ant-design/icons-svg/es/asn/FacebookFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

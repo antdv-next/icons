@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SwitcherFilledSvg from '@ant-design/icons-svg/es/asn/SwitcherFilled'
+import SwitcherFilledSvg from '@ant-design/icons-svg/es/asn/SwitcherFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

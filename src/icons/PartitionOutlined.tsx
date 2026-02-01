@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PartitionOutlinedSvg from '@ant-design/icons-svg/es/asn/PartitionOutlined'
+import PartitionOutlinedSvg from '@ant-design/icons-svg/es/asn/PartitionOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

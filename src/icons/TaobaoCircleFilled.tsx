@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import TaobaoCircleFilledSvg from '@ant-design/icons-svg/es/asn/TaobaoCircleFilled'
+import TaobaoCircleFilledSvg from '@ant-design/icons-svg/es/asn/TaobaoCircleFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

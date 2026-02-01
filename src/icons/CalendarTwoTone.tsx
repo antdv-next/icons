@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CalendarTwoToneSvg from '@ant-design/icons-svg/es/asn/CalendarTwoTone'
+import CalendarTwoToneSvg from '@ant-design/icons-svg/es/asn/CalendarTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

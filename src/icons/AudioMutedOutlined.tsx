@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import AudioMutedOutlinedSvg from '@ant-design/icons-svg/es/asn/AudioMutedOutlined'
+import AudioMutedOutlinedSvg from '@ant-design/icons-svg/es/asn/AudioMutedOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

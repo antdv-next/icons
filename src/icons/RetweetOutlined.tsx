@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RetweetOutlinedSvg from '@ant-design/icons-svg/es/asn/RetweetOutlined'
+import RetweetOutlinedSvg from '@ant-design/icons-svg/es/asn/RetweetOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

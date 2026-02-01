@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FieldStringOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldStringOutlined'
+import FieldStringOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldStringOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

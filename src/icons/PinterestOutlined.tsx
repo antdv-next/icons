@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PinterestOutlinedSvg from '@ant-design/icons-svg/es/asn/PinterestOutlined'
+import PinterestOutlinedSvg from '@ant-design/icons-svg/es/asn/PinterestOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

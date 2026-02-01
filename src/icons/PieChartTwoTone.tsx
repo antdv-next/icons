@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PieChartTwoToneSvg from '@ant-design/icons-svg/es/asn/PieChartTwoTone'
+import PieChartTwoToneSvg from '@ant-design/icons-svg/es/asn/PieChartTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

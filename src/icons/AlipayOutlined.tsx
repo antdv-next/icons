@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import AlipayOutlinedSvg from '@ant-design/icons-svg/es/asn/AlipayOutlined'
+import AlipayOutlinedSvg from '@ant-design/icons-svg/es/asn/AlipayOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import VideoCameraTwoToneSvg from '@ant-design/icons-svg/es/asn/VideoCameraTwoTone'
+import VideoCameraTwoToneSvg from '@ant-design/icons-svg/es/asn/VideoCameraTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

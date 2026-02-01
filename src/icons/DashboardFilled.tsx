@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DashboardFilledSvg from '@ant-design/icons-svg/es/asn/DashboardFilled'
+import DashboardFilledSvg from '@ant-design/icons-svg/es/asn/DashboardFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

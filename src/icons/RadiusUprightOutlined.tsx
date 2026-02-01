@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RadiusUprightOutlinedSvg from '@ant-design/icons-svg/es/asn/RadiusUprightOutlined'
+import RadiusUprightOutlinedSvg from '@ant-design/icons-svg/es/asn/RadiusUprightOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

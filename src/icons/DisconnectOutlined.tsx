@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DisconnectOutlinedSvg from '@ant-design/icons-svg/es/asn/DisconnectOutlined'
+import DisconnectOutlinedSvg from '@ant-design/icons-svg/es/asn/DisconnectOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

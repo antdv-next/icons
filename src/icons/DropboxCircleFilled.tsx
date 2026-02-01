@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DropboxCircleFilledSvg from '@ant-design/icons-svg/es/asn/DropboxCircleFilled'
+import DropboxCircleFilledSvg from '@ant-design/icons-svg/es/asn/DropboxCircleFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

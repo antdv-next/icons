@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RotateLeftOutlinedSvg from '@ant-design/icons-svg/es/asn/RotateLeftOutlined'
+import RotateLeftOutlinedSvg from '@ant-design/icons-svg/es/asn/RotateLeftOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

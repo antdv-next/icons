@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PushpinTwoToneSvg from '@ant-design/icons-svg/es/asn/PushpinTwoTone'
+import PushpinTwoToneSvg from '@ant-design/icons-svg/es/asn/PushpinTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

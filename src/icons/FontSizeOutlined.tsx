@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FontSizeOutlinedSvg from '@ant-design/icons-svg/es/asn/FontSizeOutlined'
+import FontSizeOutlinedSvg from '@ant-design/icons-svg/es/asn/FontSizeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

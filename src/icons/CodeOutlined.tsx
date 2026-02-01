@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CodeOutlinedSvg from '@ant-design/icons-svg/es/asn/CodeOutlined'
+import CodeOutlinedSvg from '@ant-design/icons-svg/es/asn/CodeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import HeartTwoToneSvg from '@ant-design/icons-svg/es/asn/HeartTwoTone'
+import HeartTwoToneSvg from '@ant-design/icons-svg/es/asn/HeartTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

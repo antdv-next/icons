@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PlusCircleFilledSvg from '@ant-design/icons-svg/es/asn/PlusCircleFilled'
+import PlusCircleFilledSvg from '@ant-design/icons-svg/es/asn/PlusCircleFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

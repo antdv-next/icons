@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import MergeCellsOutlinedSvg from '@ant-design/icons-svg/es/asn/MergeCellsOutlined'
+import MergeCellsOutlinedSvg from '@ant-design/icons-svg/es/asn/MergeCellsOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

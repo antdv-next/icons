@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SmallDashOutlinedSvg from '@ant-design/icons-svg/es/asn/SmallDashOutlined'
+import SmallDashOutlinedSvg from '@ant-design/icons-svg/es/asn/SmallDashOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

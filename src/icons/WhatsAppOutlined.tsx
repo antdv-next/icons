@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import WhatsAppOutlinedSvg from '@ant-design/icons-svg/es/asn/WhatsAppOutlined'
+import WhatsAppOutlinedSvg from '@ant-design/icons-svg/es/asn/WhatsAppOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

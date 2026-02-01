@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import YuqueFilledSvg from '@ant-design/icons-svg/es/asn/YuqueFilled'
+import YuqueFilledSvg from '@ant-design/icons-svg/es/asn/YuqueFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

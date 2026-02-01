@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FieldBinaryOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldBinaryOutlined'
+import FieldBinaryOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldBinaryOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

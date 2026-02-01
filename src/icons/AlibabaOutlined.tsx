@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import AlibabaOutlinedSvg from '@ant-design/icons-svg/es/asn/AlibabaOutlined'
+import AlibabaOutlinedSvg from '@ant-design/icons-svg/es/asn/AlibabaOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import ItalicOutlinedSvg from '@ant-design/icons-svg/es/asn/ItalicOutlined'
+import ItalicOutlinedSvg from '@ant-design/icons-svg/es/asn/ItalicOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

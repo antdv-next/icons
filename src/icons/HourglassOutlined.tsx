@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import HourglassOutlinedSvg from '@ant-design/icons-svg/es/asn/HourglassOutlined'
+import HourglassOutlinedSvg from '@ant-design/icons-svg/es/asn/HourglassOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

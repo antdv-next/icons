@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import MediumWorkmarkOutlinedSvg from '@ant-design/icons-svg/es/asn/MediumWorkmarkOutlined'
+import MediumWorkmarkOutlinedSvg from '@ant-design/icons-svg/es/asn/MediumWorkmarkOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

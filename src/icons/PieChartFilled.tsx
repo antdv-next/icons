@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PieChartFilledSvg from '@ant-design/icons-svg/es/asn/PieChartFilled'
+import PieChartFilledSvg from '@ant-design/icons-svg/es/asn/PieChartFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

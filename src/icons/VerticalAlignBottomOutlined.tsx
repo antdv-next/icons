@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import VerticalAlignBottomOutlinedSvg from '@ant-design/icons-svg/es/asn/VerticalAlignBottomOutlined'
+import VerticalAlignBottomOutlinedSvg from '@ant-design/icons-svg/es/asn/VerticalAlignBottomOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

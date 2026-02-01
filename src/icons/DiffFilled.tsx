@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DiffFilledSvg from '@ant-design/icons-svg/es/asn/DiffFilled'
+import DiffFilledSvg from '@ant-design/icons-svg/es/asn/DiffFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

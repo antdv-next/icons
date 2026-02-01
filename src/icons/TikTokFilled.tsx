@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import TikTokFilledSvg from '@ant-design/icons-svg/es/asn/TikTokFilled'
+import TikTokFilledSvg from '@ant-design/icons-svg/es/asn/TikTokFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

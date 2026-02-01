@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import StepBackwardFilledSvg from '@ant-design/icons-svg/es/asn/StepBackwardFilled'
+import StepBackwardFilledSvg from '@ant-design/icons-svg/es/asn/StepBackwardFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

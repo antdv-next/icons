@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import HarmonyOSOutlinedSvg from '@ant-design/icons-svg/es/asn/HarmonyOSOutlined'
+import HarmonyOSOutlinedSvg from '@ant-design/icons-svg/es/asn/HarmonyOSOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

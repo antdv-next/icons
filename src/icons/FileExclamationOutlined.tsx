@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FileExclamationOutlinedSvg from '@ant-design/icons-svg/es/asn/FileExclamationOutlined'
+import FileExclamationOutlinedSvg from '@ant-design/icons-svg/es/asn/FileExclamationOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

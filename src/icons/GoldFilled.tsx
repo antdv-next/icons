@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import GoldFilledSvg from '@ant-design/icons-svg/es/asn/GoldFilled'
+import GoldFilledSvg from '@ant-design/icons-svg/es/asn/GoldFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

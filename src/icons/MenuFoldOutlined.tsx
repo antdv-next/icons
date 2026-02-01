@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import MenuFoldOutlinedSvg from '@ant-design/icons-svg/es/asn/MenuFoldOutlined'
+import MenuFoldOutlinedSvg from '@ant-design/icons-svg/es/asn/MenuFoldOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

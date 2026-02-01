@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import YuqueOutlinedSvg from '@ant-design/icons-svg/es/asn/YuqueOutlined'
+import YuqueOutlinedSvg from '@ant-design/icons-svg/es/asn/YuqueOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

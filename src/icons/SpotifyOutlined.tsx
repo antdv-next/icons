@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SpotifyOutlinedSvg from '@ant-design/icons-svg/es/asn/SpotifyOutlined'
+import SpotifyOutlinedSvg from '@ant-design/icons-svg/es/asn/SpotifyOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

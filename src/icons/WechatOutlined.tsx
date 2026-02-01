@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import WechatOutlinedSvg from '@ant-design/icons-svg/es/asn/WechatOutlined'
+import WechatOutlinedSvg from '@ant-design/icons-svg/es/asn/WechatOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

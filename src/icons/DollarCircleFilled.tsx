@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DollarCircleFilledSvg from '@ant-design/icons-svg/es/asn/DollarCircleFilled'
+import DollarCircleFilledSvg from '@ant-design/icons-svg/es/asn/DollarCircleFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

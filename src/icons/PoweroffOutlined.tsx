@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PoweroffOutlinedSvg from '@ant-design/icons-svg/es/asn/PoweroffOutlined'
+import PoweroffOutlinedSvg from '@ant-design/icons-svg/es/asn/PoweroffOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

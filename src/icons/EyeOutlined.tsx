@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import EyeOutlinedSvg from '@ant-design/icons-svg/es/asn/EyeOutlined'
+import EyeOutlinedSvg from '@ant-design/icons-svg/es/asn/EyeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

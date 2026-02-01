@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DockerOutlinedSvg from '@ant-design/icons-svg/es/asn/DockerOutlined'
+import DockerOutlinedSvg from '@ant-design/icons-svg/es/asn/DockerOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

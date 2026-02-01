@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RestFilledSvg from '@ant-design/icons-svg/es/asn/RestFilled'
+import RestFilledSvg from '@ant-design/icons-svg/es/asn/RestFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

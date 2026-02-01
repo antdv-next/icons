@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import LockFilledSvg from '@ant-design/icons-svg/es/asn/LockFilled'
+import LockFilledSvg from '@ant-design/icons-svg/es/asn/LockFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

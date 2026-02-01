@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import BarcodeOutlinedSvg from '@ant-design/icons-svg/es/asn/BarcodeOutlined'
+import BarcodeOutlinedSvg from '@ant-design/icons-svg/es/asn/BarcodeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

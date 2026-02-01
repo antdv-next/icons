@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import YoutubeOutlinedSvg from '@ant-design/icons-svg/es/asn/YoutubeOutlined'
+import YoutubeOutlinedSvg from '@ant-design/icons-svg/es/asn/YoutubeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CalendarOutlinedSvg from '@ant-design/icons-svg/es/asn/CalendarOutlined'
+import CalendarOutlinedSvg from '@ant-design/icons-svg/es/asn/CalendarOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

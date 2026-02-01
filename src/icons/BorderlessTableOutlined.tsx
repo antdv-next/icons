@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import BorderlessTableOutlinedSvg from '@ant-design/icons-svg/es/asn/BorderlessTableOutlined'
+import BorderlessTableOutlinedSvg from '@ant-design/icons-svg/es/asn/BorderlessTableOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import SortDescendingOutlinedSvg from '@ant-design/icons-svg/es/asn/SortDescendingOutlined'
+import SortDescendingOutlinedSvg from '@ant-design/icons-svg/es/asn/SortDescendingOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

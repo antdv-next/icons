@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FieldNumberOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldNumberOutlined'
+import FieldNumberOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldNumberOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

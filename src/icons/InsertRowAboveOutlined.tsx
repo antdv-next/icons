@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import InsertRowAboveOutlinedSvg from '@ant-design/icons-svg/es/asn/InsertRowAboveOutlined'
+import InsertRowAboveOutlinedSvg from '@ant-design/icons-svg/es/asn/InsertRowAboveOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

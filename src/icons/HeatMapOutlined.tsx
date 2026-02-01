@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import HeatMapOutlinedSvg from '@ant-design/icons-svg/es/asn/HeatMapOutlined'
+import HeatMapOutlinedSvg from '@ant-design/icons-svg/es/asn/HeatMapOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

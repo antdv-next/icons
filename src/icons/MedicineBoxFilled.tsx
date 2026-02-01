@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import MedicineBoxFilledSvg from '@ant-design/icons-svg/es/asn/MedicineBoxFilled'
+import MedicineBoxFilledSvg from '@ant-design/icons-svg/es/asn/MedicineBoxFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

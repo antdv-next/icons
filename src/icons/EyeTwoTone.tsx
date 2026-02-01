@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import EyeTwoToneSvg from '@ant-design/icons-svg/es/asn/EyeTwoTone'
+import EyeTwoToneSvg from '@ant-design/icons-svg/es/asn/EyeTwoTone.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

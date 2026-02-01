@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import PropertySafetyFilledSvg from '@ant-design/icons-svg/es/asn/PropertySafetyFilled'
+import PropertySafetyFilledSvg from '@ant-design/icons-svg/es/asn/PropertySafetyFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import DropboxOutlinedSvg from '@ant-design/icons-svg/es/asn/DropboxOutlined'
+import DropboxOutlinedSvg from '@ant-design/icons-svg/es/asn/DropboxOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

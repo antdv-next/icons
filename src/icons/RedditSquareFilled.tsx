@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import RedditSquareFilledSvg from '@ant-design/icons-svg/es/asn/RedditSquareFilled'
+import RedditSquareFilledSvg from '@ant-design/icons-svg/es/asn/RedditSquareFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

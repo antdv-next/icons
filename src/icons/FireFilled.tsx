@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import FireFilledSvg from '@ant-design/icons-svg/es/asn/FireFilled'
+import FireFilledSvg from '@ant-design/icons-svg/es/asn/FireFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

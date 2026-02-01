@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import AndroidFilledSvg from '@ant-design/icons-svg/es/asn/AndroidFilled'
+import AndroidFilledSvg from '@ant-design/icons-svg/es/asn/AndroidFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

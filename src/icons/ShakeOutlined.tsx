@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import ShakeOutlinedSvg from '@ant-design/icons-svg/es/asn/ShakeOutlined'
+import ShakeOutlinedSvg from '@ant-design/icons-svg/es/asn/ShakeOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

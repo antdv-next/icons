@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CompassOutlinedSvg from '@ant-design/icons-svg/es/asn/CompassOutlined'
+import CompassOutlinedSvg from '@ant-design/icons-svg/es/asn/CompassOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

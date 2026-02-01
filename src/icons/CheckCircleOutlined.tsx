@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CheckCircleOutlinedSvg from '@ant-design/icons-svg/es/asn/CheckCircleOutlined'
+import CheckCircleOutlinedSvg from '@ant-design/icons-svg/es/asn/CheckCircleOutlined.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 

@@ -2,7 +2,7 @@
 // DON NOT EDIT IT MANUALLY
 
 import type { AntdIconProps } from '../components/AntdIcon'
-import CodeSandboxCircleFilledSvg from '@ant-design/icons-svg/es/asn/CodeSandboxCircleFilled'
+import CodeSandboxCircleFilledSvg from '@ant-design/icons-svg/es/asn/CodeSandboxCircleFilled.js'
 import { defineComponent } from 'vue'
 import AntdIcon from '../components/AntdIcon'
 
