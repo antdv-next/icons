@@ -53,6 +53,7 @@
     "@vue/tsconfig": "^0.8.1",
     "bumpp": "^10.4.0",
     "esno": "4.8.0",
+    "jsdom": "^28.0.0",
     "pkg-types": "^2.3.0",
     "tsdown": "^0.20.1",
     "typescript": "~5.9.3",

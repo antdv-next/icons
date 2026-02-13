@@ -44,12 +44,31 @@ interface IconBaseComponent {
   setTwoToneColors: typeof setTwoToneColors
 }
 
+type MaybeInteropIcon = IconDefinition | { default?: IconDefinition } | undefined | null
+
+export function unwrapIconDefinition(icon: MaybeInteropIcon): IconDefinition | undefined {
+  if (isIconDefinition(icon)) {
+    return icon
+  }
+
+  const maybeDefault = icon && typeof icon === 'object' && 'default' in icon
+    ? (icon.default as unknown)
+    : undefined
+
+  if (isIconDefinition(maybeDefault)) {
+    return maybeDefault
+  }
+
+  return undefined
+}
+
 const IconBase = defineComponent<IconProps>(
   (props, { attrs }) => {
     const svgRef = shallowRef<HTMLElement>()
     useInsertStyles(svgRef)
     return () => {
       const { icon, onClick, primaryColor, secondaryColor } = props
+      const resolvedIcon = unwrapIconDefinition(icon as MaybeInteropIcon)
       let colors: TwoToneColorPalette = twoToneColorPalette
       if (primaryColor) {
         colors = {
@@ -57,12 +76,12 @@ const IconBase = defineComponent<IconProps>(
           secondaryColor: secondaryColor || getSecondaryColor(primaryColor),
         }
       }
-      warning(isIconDefinition(icon), `icon should be icon definiton, but got ${icon}`)
+      warning(!!resolvedIcon, `icon should be icon definiton, but got ${icon}`)
 
-      if (!isIconDefinition(icon)) {
+      if (!resolvedIcon) {
         return null
       }
-      let target = icon
+      let target = resolvedIcon
       if (target && typeof target.icon === 'function') {
         target = {
           ...target,
