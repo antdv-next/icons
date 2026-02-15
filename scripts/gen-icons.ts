@@ -7,7 +7,6 @@ import allIconDefs from '@ant-design/icons-svg'
 import { isNil, template } from 'es-toolkit/compat'
 import { findPackage } from 'pkg-types'
 
-
 interface IconDefinitionWithIdentifier extends IconDefinition {
   svgIdentifier: string
   svgBase64: string | null
