@@ -61,8 +61,9 @@ const Icon = defineComponent<IconComponentProps>(
         delete innerSvgProps.viewBox
       }
       const children = filterEmpty(slots?.default?.())
+      const comp = filterEmpty(slots?.component?.())
 
-      warning(Boolean(component || children.length), 'Should have `component` prop or `children`.')
+      warning(Boolean(component || children.length || comp.length), 'Should have `component` prop or `children`.')
 
       const renderInnerNode = () => {
         if (slots?.component) {
