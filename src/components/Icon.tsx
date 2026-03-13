@@ -61,7 +61,7 @@ const Icon = defineComponent<IconComponentProps>(
         delete innerSvgProps.viewBox
       }
       const children = filterEmpty(slots?.default?.())
-      const comp = filterEmpty(slots?.component?.())
+      const comp = filterEmpty(slots?.component?.(innerSvgProps))
 
       warning(Boolean(component || children.length || comp.length), 'Should have `component` prop or `children`.')
 
