@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/antdv-next/icons.git"
   },
+  "sideEffects": [
+    "./dist/antd-icons.js",
+    "./dist/antd-icons.esm.js"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -28,6 +32,11 @@
     "./dist/antd-icons.js": "./dist/antd-icons.js",
     "./package.json": "./package.json"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "unpkg": "dist/antd-icons.js",
+  "jsdelivr": "dist/antd-icons.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "package.json"
@@ -44,18 +53,9 @@
     "bump": "bumpp",
     "lint": "eslint . --fix"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "unpkg": "dist/antd-icons.js",
-  "jsdelivr": "dist/antd-icons.js",
-  "types": "./dist/index.d.ts",
   "peerDependencies": {
     "vue": ">=3.2.0"
   },
-  "sideEffects": [
-    "./dist/antd-icons.js",
-    "./dist/antd-icons.esm.js"
-  ],
   "dependencies": {
     "@ant-design/colors": "7.2.1",
     "@ant-design/icons-svg": "^4.4.2",
