@@ -6,7 +6,7 @@ import { generate, getSecondaryColor, isIconDefinition, useInsertStyles } from '
 
 export interface IconProps {
   icon: IconDefinition
-  onClick?: (e: MouseEvent) => void | ((e: MouseEvent) => void)[]
+  onClick?: (e: MouseEvent) => void | Array<(e: MouseEvent) => void>
   primaryColor?: string // only for two-tone
   secondaryColor?: string // only for two-tone
   focusable?: string
