@@ -12,7 +12,7 @@ import { getTwoToneColor, setTwoToneColor } from './twoTonePrimaryColor'
 
 export interface AntdIconProps extends IconBaseProps {
   twoToneColor?: TwoToneColor
-  onClick?: (e: MouseEvent) => void
+  onClick?: (e: MouseEvent) => void | ((e: MouseEvent) => void)[]
   tabIndex?: number
 
 }
@@ -78,7 +78,14 @@ const Icon = defineComponent<IconComponentProps>(
           {...restProps}
           {...restAttrs}
           tabindex={iconTabIndex}
-          onClick={onClick}
+          onClick={(e) => {
+            if (Array.isArray(onClick)) {
+              onClick.forEach(fn => fn?.(e))
+            }
+            else {
+              onClick?.(e)
+            }
+          }}
           class={[classString, attrs.class]}
         >
           <IconBase

@@ -22,7 +22,7 @@ export interface IconComponentProps extends IconBaseProps {
   component?: any
   ariaLabel?: any
   tabIndex?: number
-  onClick?: (e: MouseEvent) => void
+  onClick?: (e: MouseEvent) => void | ((e: MouseEvent) => void)[]
 }
 
 const Icon = defineComponent<IconComponentProps>(
@@ -92,7 +92,14 @@ const Icon = defineComponent<IconComponentProps>(
           role="img"
           {...attrs}
           tabindex={iconTabIndex}
-          onClick={onClick}
+          onClick={(e) => {
+            if (Array.isArray(onClick)) {
+              onClick.forEach(fn => fn?.(e))
+            }
+            else {
+              onClick?.(e)
+            }
+          }}
           class={classString}
         >
           {renderInnerNode()}

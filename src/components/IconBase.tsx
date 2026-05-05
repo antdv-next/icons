@@ -6,7 +6,7 @@ import { generate, getSecondaryColor, isIconDefinition, useInsertStyles } from '
 
 export interface IconProps {
   icon: IconDefinition
-  onClick?: (e: MouseEvent) => void
+  onClick?: (e: MouseEvent) => void | ((e: MouseEvent) => void)[]
   primaryColor?: string // only for two-tone
   secondaryColor?: string // only for two-tone
   focusable?: string
@@ -92,7 +92,14 @@ const IconBase = defineComponent<IconProps>(
         target.icon as AbstractNode,
         `svg-${target.name}`,
         {
-          onClick,
+          onClick: (e: MouseEvent) => {
+            if (Array.isArray(onClick)) {
+              onClick.forEach(fn => fn?.(e))
+            }
+            else {
+              onClick?.(e)
+            }
+          },
           'data-icon': target.name,
           'width': '1em',
           'height': '1em',
