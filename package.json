@@ -1,7 +1,7 @@
 {
   "name": "@antdv-next/icons",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "packageManager": "pnpm@10.33.0",
   "description": "Antdv Next icon components for Vue 3.",
   "repository": {
