@@ -22,7 +22,7 @@ export interface IconComponentProps extends IconBaseProps {
   component?: any
   ariaLabel?: any
   tabIndex?: number
-  onClick?: (e: MouseEvent) => void | Array<(e: MouseEvent) => void>
+  onClick?: ((e: MouseEvent) => void) | Array<(e: MouseEvent) => void>
 }
 
 const Icon = defineComponent<IconComponentProps>(
