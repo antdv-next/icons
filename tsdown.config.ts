@@ -7,7 +7,9 @@ export default defineConfig({
   tsconfig: './tsconfig.app.json',
   entry: [
     'src/index.ts',
+    'src/all.ts',
     'src/icons/index.tsx',
+    'src/extra-icons/index.tsx',
   ],
   external: [
     'vue',

@@ -17,6 +17,7 @@ const config = antfu(
     },
     ignores: [
       'src/icons/**/*',
+      'src/extra-icons/**/*',
     ],
   },
 ) as Linter.Config

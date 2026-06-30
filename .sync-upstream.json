@@ -1,0 +1,34 @@
+{
+  "downstream": {
+    "name": "@antdv-next/icons",
+    "local_path": "./",
+    "repo": "antdv-next/icons",
+    "base_branch": "main"
+  },
+  "upstreams": [
+    {
+      "name": "ant-design-icons",
+      "repo": "ant-design/ant-design-icons",
+      "remote_url": "https://github.com/ant-design/ant-design-icons.git",
+      "npm_package": "@ant-design/icons-svg",
+      "last_synced_commit": "79587c247cc437cd1895a84878a0ce604717aec3",
+      "last_synced_commit_short": "79587c24",
+      "last_synced_version": "4.5.0",
+      "last_synced_at": "2026-06-29T15:20:00Z",
+      "packages": [
+        {
+          "upstream_path": "packages/icons-svg/svg",
+          "downstream_path": "src/icons",
+          "note": "下游不直接搬运 svg，而是依赖 npm 包 @ant-design/icons-svg，通过 scripts/gen-icons.ts 生成 Vue3 wrapper。同步 = bump @ant-design/icons-svg 版本 + 重新生成。"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "parallel": false,
+    "max_workers": 4,
+    "base_branch": "main",
+    "max_prs": 50,
+    "sync_strategy": "npm-regenerate"
+  }
+}

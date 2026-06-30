@@ -1,11 +1,9 @@
-import { describe ,it,expect} from "vitest"
-import { classNames, warning } from '@v-c/util'
+import { warning } from '@v-c/util'
+import { describe, expect, it } from 'vitest'
 
-
-describe("warning", () => {
-    it('should test', () => {
-      expect(true).toBeTruthy()
-        warning(false,"sss")
-
-    });
+describe('warning', () => {
+  it('should test', () => {
+    expect(true).toBeTruthy()
+    warning(false, 'sss')
+  })
 })

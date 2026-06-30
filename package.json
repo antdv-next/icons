@@ -2,7 +2,7 @@
   "name": "@antdv-next/icons",
   "type": "module",
   "version": "1.0.8",
-  "packageManager": "pnpm@10.33.0",
+  "packageManager": "pnpm@10.34.4",
   "description": "Antdv Next icon components for Vue 3.",
   "repository": {
     "type": "git",
@@ -19,14 +19,24 @@
       "default": "./dist/index.js"
     },
     "./all": {
-      "types": "./dist/icons/index.d.ts",
-      "import": "./dist/icons/index.js",
-      "default": "./dist/icons/index.js"
+      "types": "./dist/all.d.ts",
+      "import": "./dist/all.js",
+      "default": "./dist/all.js"
     },
     "./icons/*": {
       "types": "./dist/icons/*.d.ts",
       "import": "./dist/icons/*.js",
       "default": "./dist/icons/*.js"
+    },
+    "./extra-icons": {
+      "types": "./dist/extra-icons/index.d.ts",
+      "import": "./dist/extra-icons/index.js",
+      "default": "./dist/extra-icons/index.js"
+    },
+    "./extra-icons/*": {
+      "types": "./dist/extra-icons/*.d.ts",
+      "import": "./dist/extra-icons/*.js",
+      "default": "./dist/extra-icons/*.js"
     },
     "./dist/antd-icons.esm.js": "./dist/antd-icons.esm.js",
     "./dist/antd-icons.js": "./dist/antd-icons.js",
@@ -48,7 +58,9 @@
     "build:icons": "tsdown",
     "build:es": "vite build --config ./vite.esm.config.ts",
     "build:umd": "vite build --config ./vite.umd.config.ts",
+    "gen": "run-s gen:icons gen:custom-icons",
     "gen:icons": "esno ./scripts/gen-icons.ts",
+    "gen:custom-icons": "esno ./scripts/gen-custom-icons.ts",
     "prepublish": "pnpm build",
     "bump": "bumpp",
     "lint": "eslint . --fix"
@@ -58,27 +70,27 @@
   },
   "dependencies": {
     "@ant-design/colors": "7.2.1",
-    "@ant-design/icons-svg": "^4.4.2",
+    "@ant-design/icons-svg": "^4.5.0",
     "@v-c/util": "^1.0.19"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.7.3",
-    "@types/node": "^25.5.0",
-    "@vitejs/plugin-vue": "^6.0.5",
-    "@vitejs/plugin-vue-jsx": "^5.1.5",
+    "@types/node": "^25.9.4",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
     "@vue/tsconfig": "^0.8.1",
     "bumpp": "^10.4.1",
-    "es-toolkit": "1.45.1",
-    "eslint": "^10.1.0",
+    "es-toolkit": "1.49.0",
+    "eslint": "^10.6.0",
     "esno": "4.8.0",
-    "jiti": "^2.6.1",
+    "jiti": "^2.7.0",
     "jsdom": "^28.1.0",
     "npm-run-all": "^4.1.5",
-    "pkg-types": "^2.3.0",
+    "pkg-types": "^2.3.1",
     "tsdown": "^0.20.3",
     "typescript": "~5.9.3",
-    "vite": "^8.0.3",
+    "vite": "^8.1.0",
     "vite-plugin-tsx-resolve-types": "^1.0.1",
-    "vitest": "^4.1.2"
+    "vitest": "^4.1.9"
   }
 }
