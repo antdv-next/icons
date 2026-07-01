@@ -153,7 +153,11 @@ export function useInsertStyles(eleRef: Ref<HTMLDivElement | HTMLElement | undef
 
   onMounted(async () => {
     await nextTick()
-    const { prefixCls, csp, layer } = iconContext.value
+    const { prefixCls, csp, layer, zeroRuntime } = iconContext.value
+    // Skip runtime style injection when the reset CSS is extracted statically.
+    if (zeroRuntime) {
+      return
+    }
     if (prefixCls) {
       mergedStyleStr = mergedStyleStr.replace(/anticon/g, prefixCls)
     }

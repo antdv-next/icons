@@ -6,6 +6,11 @@ export interface IconContextProps {
   rootClass?: string
   csp?: { nonce?: string }
   layer?: string
+  /**
+   * When enabled, skip runtime icon style injection (the reset/spin CSS is
+   * expected to be extracted statically). Aligns with `@ant-design/icons`.
+   */
+  zeroRuntime?: boolean
 }
 
 const IconContextKey: InjectionKey<Ref<IconContextProps>> = Symbol('IconContext')
