@@ -74,7 +74,7 @@ const Icon = defineComponent<IconComponentProps>(
         }
         if (children.length) {
           warning(
-            Boolean(viewBox) || (children.length === 1 && (children[0] as any)?.props?.type === 'use'),
+            Boolean(viewBox) || (children.length === 1 && (children[0] as any)?.type === 'use'),
             'Make sure that you provide correct `viewBox`'
             + ' prop (default `0 0 1024 1024`) to the icon.',
           )
